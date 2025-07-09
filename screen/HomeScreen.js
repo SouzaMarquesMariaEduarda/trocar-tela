@@ -1,4 +1,35 @@
 import React from 'react';
+import {View, Text, Button, StyleShee} from 'react-native';
+export default function HomeScreen ({navigation}) {
+  return (
+    <View style={styles.container}>
+    <Text style={styles.title}>
+    <Button title="Ir para Opções deliciosas" onPress={() => navigation.navigate ('Secondary') {style={style.Image}
+    <Text style={style.description}>
+    Comece o dia com uma xicara de cafe aromatica e revigorante.
+    <Text>
+    </View>
+  );
+    }
+
+    const styles = styleSheet.creater({
+      container: {
+        flex:1,
+        justifyContent:'center',
+        backgroundColor:'#f5f5dc',
+        padding:20,
+      };
+      Title: {
+        fontSize:24,
+        fontWeight:"bold"
+        marginBottom:20,
+        color'#5c4033
+      };
+    })
+
+
+
+}
 import{NavigationContainer}
 from '@react-navigation/native';
 import{createStackNavigator}
