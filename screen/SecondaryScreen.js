@@ -1,6 +1,5 @@
 import React from 'react';
-import {View, Text, Button, StyleSheet}
-from 'react-native';
+import {View, Text, Button, StyleSheet} from 'react-native';
 export default function SecondaryScreen({navigation}) {
   return (
     <View style={styles.container}>
@@ -11,7 +10,7 @@ export default function SecondaryScreen({navigation}) {
     color="#a0522d"
     />
     </View>
-    <View style={style.buttonContainer}>
+    <View style={styles.buttonContainer}>
     <Button
     title="Bolo de Chocolate"
     onPress={()=>navigation.navigate
@@ -25,7 +24,7 @@ export default function SecondaryScreen({navigation}) {
  onPress={()=>navigation.navigate
  ('Pao')}
  color"8b4513"
-}
+/>
 const styles = StyleSheet.create({
   container:{
     flex:1,
